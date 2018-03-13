@@ -5,9 +5,12 @@ html {
 }
 
 .navbar {
-    background-image: url(../images/the-flatiron-building.png)
-    color: white;
+    background-image: url(../images/the-flatiron-building.png);
     font-size: 18px;
+}
+
+.navbar a:hover, a:active, a:visited {
+    color: white;
 }
 
 h1, h2, h3 {
@@ -16,6 +19,7 @@ h1, h2, h3 {
 
 h1 {
     font-size: 70px;
+    color: white;
 }
 
 h2 {
@@ -30,15 +34,28 @@ p {
     font-size: 14px;
 }
 
+nav {
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    padding-top: 10px;
+    font-size: 18px;
+}
+
+footer {
+    font-size: 11px !important,
+    color: white;
+    background-color: dimgray;
+    text-align: left;
+}
+
 .NY {
     font-size: 23px;
     color: white;
     background-image: url(../images/the-flatiron-building.png);
-}
-
-footer {
-    font-size: 11px,
-    color: white;
-    background-color: dimgray;
-    text-align: left;
 }
